@@ -1,49 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="46440453-012b-4723-903c-e0b51de81226" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.editorconfig" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.gitattributes" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.idea/FrontEnd.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/browserconfig.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/css/normalize.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/TOC.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/css.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/extend.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/faq.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/html.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/js.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/misc.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/doc/usage.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/favicon.ico" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/humans.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/icon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/img/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/js/plugins.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/js/vendor/modernizr-3.11.2.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/package-lock.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/package.json" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/robots.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/site.webmanifest" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/tile-wide.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Boilerplate/tile.png" afterDir="false" />
-    </list>
+    <list default="true" id="46440453-012b-4723-903c-e0b51de81226" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1fAPGuDOSV1BGWp2RXkzqF9ENZh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -55,6 +20,7 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/MySite" />
   </component>
   <component name="RunManager">
     <configuration name="Unnamed" type="ChromiumRemoteDebugType" factoryName="Chromium Remote" nameIsGenerated="true" port="9229">
@@ -72,6 +38,7 @@
       <option name="presentableId" value="Default" />
       <updated>1595657832032</updated>
       <workItem from="1595657837175" duration="827000" />
+      <workItem from="1595658838848" duration="214000" />
     </task>
     <servers />
   </component>
@@ -83,5 +50,9 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="96" y="0" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1280.680/-2560.-442.2560.1400@0.0.1280.680" timestamp="1595657865569" />
+    <state x="421" y="95" key="FileChooserDialogImpl" timestamp="1595659052941">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="421" y="95" key="FileChooserDialogImpl/0.0.1280.680/-2560.-442.2560.1400@0.0.1280.680" timestamp="1595659052941" />
   </component>
 </project>
