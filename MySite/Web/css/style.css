@@ -1,5 +1,4 @@
-
-/*Обнуление*/
+/*clear*/
 *{
 	padding: 0;
 	margin: 0;
@@ -38,7 +37,16 @@ img{vertical-align: top;}
 h1,h2,h3,h4,h5,h6{font-size:inherit;font-weight: 400;}
 /*--------------------*/
 
-.bigred{
-	font-size: 20px;
-	color: red;
+.block {
+	border: 2px solid #000000;
+	height: 100px;
+	width: 400px;
+	margin: 50px auto;
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#00efdf+0,963030+14,963030+14,a1ff87+36,a1ff87+66,963030+92,3f27db+100 */
+	background: #00efdf; /* Old browsers */
+	background: -moz-linear-gradient(-45deg,  #00efdf 0%, #963030 14%, #963030 14%, #a1ff87 36%, #a1ff87 66%, #963030 92%, #3f27db 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(-45deg,  #00efdf 0%,#963030 14%,#963030 14%,#a1ff87 36%,#a1ff87 66%,#963030 92%,#3f27db 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(135deg,  #00efdf 0%,#963030 14%,#963030 14%,#a1ff87 36%,#a1ff87 66%,#963030 92%,#3f27db 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00efdf', endColorstr='#3f27db',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
 }
