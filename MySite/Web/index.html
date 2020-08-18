@@ -29,9 +29,54 @@ maximum-scale=1.0,user-scalable=0">
 
     <!--redirect-->
     <!--<meta http-equiv="refresh" content="5,url=index.html">-->
+
+    <script src="file.js"></script>
+
+    <!-- добавим стили mocha для отображения результатов -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- добавляем сам фреймворк mocha -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        // включаем режим тестирования в стиле BDD
+        mocha.setup('bdd');
+    </script>
+    <!-- добавим chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai предоставляет большое количество функций. Объявим assert глобально
+        let assert = chai.assert;
+    </script>
 </head>
 <body>
+<script>
+    function pow(x, n) {
+        /* Здесь будет реализация функции, пока пусто */
+    }
+</script>
+
+<!-- скрипт со спецификацией (describe, it...) -->
+<script src="test.js"></script>
+
+<!-- элемент с id="mocha" будет содержать результаты тестов -->
+<div id="mocha"></div>
+
+<!-- запускаем тесты! -->
+<script>
+    mocha.run();
+</script>
 <div class="block"><span>Defender</span></div>
 <div class="block"><span>Defender</span></div>
+
+<div class="rect">
+    <div class="rect__content">
+        <span class="rect__text">
+            SD
+        </span>
+    </div>
+</div>
+
+<div class="continue">
+
+</div>
 </body>
 </html>

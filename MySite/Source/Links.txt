@@ -12,3 +12,6 @@ http://www.font2web.com/
 
 Flexbox cheat list:
 http://fls.guru/flexbox.html
+
+Transition cheat list:
+http://fls.guru/csstransition.html

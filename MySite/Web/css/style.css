@@ -80,4 +80,24 @@ h1, h2, h3, h4, h5, h6 {
     letter-spacing: 35px;
     font-family: "Cleanwork"; }
 
+.rect .rect__content {
+  position: fixed;
+  background-color: #d21111;
+  text-align: center;
+  height: 50px;
+  width: 50px;
+  justify-content: center;
+  align-content: center;
+  left: 95%;
+  top: 90%; }
+  .rect .rect__content .rect__text {
+    color: greenyellow;
+    line-height: 50px;
+    margin-top: auto;
+    font-weight: 600;
+    font-size: 35px; }
+
+.continue {
+  height: 500%; }
+
 /*# sourceMappingURL=style.css.map */
