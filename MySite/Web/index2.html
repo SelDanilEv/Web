@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <title></title>
+    <link rel="stylesheet" href="css/style.css"/>
+    <meta charset="UTF-8">
+
+    <!--without adaptation-->
+    <!--<meta name="viewport" content="width=1170" />;-->
+
+    <!--with adaptation-->
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,
+maximum-scale=1.0,user-scalable=0">
+
+    <!--disable telephone-->
+    <meta name="format-detection" content="telephone=no">
+
+    <!--seo -->
+    <!-- <=140 symbols-->
+    <meta name="description" contetn="">
+    <!-- <=20 words (separate - ,)-->
+    <meta name="keywords" contetn="">
+
+    <!--robots control-->
+    <meta name="robots" contetn="none">
+
+    <meta name="Author" content="DefenderSD">
+    <meta name="Copyright" content="DefenderSD">
+
+    <!--redirect-->
+    <!--<meta http-equiv="refresh" content="5,url=index.html">-->
+
+
+    <!-- добавим стили mocha для отображения результатов -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
+    <!-- добавляем сам фреймворк mocha -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+    <script>
+        // включаем режим тестирования в стиле BDD
+        mocha.setup('bdd');
+    </script>
+    <!-- добавим chai -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
+    <script>
+        // chai предоставляет большое количество функций. Объявим assert глобально
+        let assert = chai.assert;
+    </script>
+
+</head>
+<body>
+<script>
+    new Promise((resolve, reject) => {
+        let time = setInterval(() => resolve("first END"), 1)
+    }).then(msg=>console.log(msg));
+
+    new Promise((resolve, reject) => {
+        let time = setInterval(() => resolve("second END"), 1)
+    }).then(msg=>console.log(msg));
+
+    async function showAvatar() {
+        let user = "SelDanilEv";
+
+        // запрашиваем информацию об этом пользователе из github
+        let githubResponse = await fetch(`https://api.github.com/users/${user}`);
+        let githubUser = await githubResponse.json();
+
+        // отображаем аватар пользователя
+        let img = document.createElement('img');
+        img.src = githubUser.avatar_url;
+
+        document.getElementById("git")
+        .append(img);
+        await new Promise((resolve, reject) => setTimeout(resolve, 3000));
+
+        img.remove();
+
+        return githubUser;
+    }
+
+    showAvatar();
+
+</script>
+<div id="git"></div>
+
+<div class="block"><span>Defender</span></div>
+<div class="block"><span>Defender</span></div>
+
+<img src="img/user-image.007dad08.svg" style="width: 50px;height: 50px">
+
+<div class="rect">
+    <div class="rect__content">
+        <span class="rect__text">
+            SD
+        </span>
+    </div>
+</div>
+
+<div class="continue">
+
+</div>
+</body>
+</html>
