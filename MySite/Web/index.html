@@ -2,81 +2,22 @@
 <html lang="ru">
 <head>
     <title></title>
-    <link rel="stylesheet" href="css/style.css"/>
     <meta charset="UTF-8">
+    <style>
+        #id {
+            color: green;
+        }
 
-    <!--without adaptation-->
-    <!--<meta name="viewport" content="width=1170" />;-->
-
-    <!--with adaptation-->
-    <meta name="viewport" content="width=device-width,initial-scale=1.0,
-maximum-scale=1.0,user-scalable=0">
-
-    <!--disable telephone-->
-    <meta name="format-detection" content="telephone=no">
-
-    <!--seo -->
-    <!-- <=140 symbols-->
-    <meta name="description" contetn="">
-    <!-- <=20 words (separate - ,)-->
-    <meta name="keywords" contetn="">
-
-    <!--robots control-->
-    <meta name="robots" contetn="none">
-
-    <meta name="Author" content="DefenderSD">
-    <meta name="Copyright" content="DefenderSD">
-
-    <!--redirect-->
-    <!--<meta http-equiv="refresh" content="5,url=index.html">-->
-
-    <script src="file.js"></script>
-
-    <!-- добавим стили mocha для отображения результатов -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
-    <!-- добавляем сам фреймворк mocha -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
+        [atr] {
+            color: blue;
+        }
+    </style>
     <script>
-        // включаем режим тестирования в стиле BDD
-        mocha.setup('bdd');
-    </script>
-    <!-- добавим chai -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
-    <script>
-        // chai предоставляет большое количество функций. Объявим assert глобально
-        let assert = chai.assert;
+const p = new Promise(((resolve, reject) => resolve()))
+        p.then(()=>{console.log(10),console.log(20)})
     </script>
 </head>
 <body>
-<script>
-    function pow(x, n) {
-        /* Здесь будет реализация функции, пока пусто */
-    }
-</script>
-
-<!-- скрипт со спецификацией (describe, it...) -->
-<script src="test.js"></script>
-
-<!-- элемент с id="mocha" будет содержать результаты тестов -->
-<div id="mocha"></div>
-
-<!-- запускаем тесты! -->
-<script>
-    mocha.run();
-</script>
-<div class="block"><span>Defender</span></div>
-<div class="block"><span>Defender</span></div>
-
-<div class="rect">
-    <div class="rect__content">
-        <span class="rect__text">
-            SD
-        </span>
-    </div>
-</div>
-
-<div class="continue">
-
-</div>
+<span id="id" atr>Text</span>
 </body>
 </html>

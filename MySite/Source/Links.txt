@@ -1,17 +1,5 @@
 To create gradient:
 https://www.colorzilla.com/gradient-editor/
 
-Background cheat list:
-http://fls.guru/cssbackground.html
-
-Position cheat list:
-http://fls.guru/cssposition.html
-
-Font converter:
-http://www.font2web.com/
-
-Flexbox cheat list:
-http://fls.guru/flexbox.html
-
-Transition cheat list:
-http://fls.guru/csstransition.html
+All cheat lists:
+http://fls.guru/
